@@ -1,0 +1,389 @@
+<!DOCTYPE css>
+h4{
+	font-size: 16px;
+}
+button{
+	border: 1px solid #666666;
+	cursor: pointer;
+}
+button:focus {outline:0;}
+img{
+width: 100%;
+}
+td{
+	padding: 0px;
+    display: table-cell;
+    text-align: auto;
+    vertical-align: center;
+	color: white;
+}
+.hide{
+display:none;
+}
+tr{
+border: 2px solid black;
+}
+table{
+	width: 100%;
+	background-color: grey;
+}
+
+nav{
+  position: absolute;
+  right: 80px;
+  border-left: 1px solid #666666;
+}
+nav a{
+  float:left;
+  padding: 15px 20px 15px 20px;
+  font-family: Museo500Regular;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid #666666;
+}
+.logo{
+  position: absolute;
+  left: 60px;
+  top: 6px;
+  z-index: 2;
+  height: 40px;
+	width: auto;
+}
+.menu{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-left: -80px;
+  padding-right: 160px;
+	background-color: rgb(30, 30, 30);
+  border-bottom: 1px solid #666666;
+}
+nav a:hover{
+  background: #f58400 url("../images/ui-images/ui-bg_inset-soft_30_f58400_1x100.png") 50% 50% repeat-x;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.page-active{
+  background: #f58400 url("../images/ui-images/ui-bg_inset-soft_30_f58400_1x100.png") 50% 50% repeat-x;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.table-container{
+height: 400px;
+	overflow-y: scroll;}
+.main-row{
+margin-top: -50px;
+}
+.table-img{
+width: 45px;
+}
+.gold-icon{
+display: flex;
+	flex: wrap;
+}
+.filter-interface{
+	margin-top: 45px;
+	width: 100%;
+	border: 1px solid #666666;
+	border-radius: 6px;
+	background-color: rgb(30, 30, 30);
+	display: flex;
+	flex-wrap: wrap;
+	height:auto;
+}
+.color-container{
+	display: flex;
+}
+.label-color{
+text-align: center
+}
+.hero-container{
+padding-left: 5%;
+display: flex;
+}
+.label-heros{
+text-align: center;
+position:relative;
+right:4px;}
+.label-main{
+	text-align: center;}
+.main-container{
+	display: flex;
+	flex: wrap;
+}
+.main-group{
+padding-left: 14px;
+padding-right: 3px;
+}
+.btn-group{
+margin-left: 35px;
+}
+.label-items{
+text-align: center;
+}
+.item-container{
+display: flex;
+	flex: wrap;}
+.label-rarity{
+text-align: center;}
+.rarity-container{
+display: flex;
+	flex: wrap;
+}
+.view-btn-container{
+  display: flex;
+	width: 160px;
+}
+.view-btn{
+	height: 40px;
+	width: 50%;
+	text-align: center;
+	color: rgb(204, 204, 204);
+	background-color: rgb(30, 30, 30);
+}
+
+.label-search{
+text-align: center;
+padding-bottom: 15px;
+}
+.search-container{
+	position: relative;
+	bottom: 15px;
+}
+.search-group{
+	margin-left: 3%;
+}
+.clear-container{
+	position: relative;
+	margin-left: 3%;
+}
+
+.table-background{
+	float: left;
+	padding: 10px;
+	background-color: black;
+	object-fit: fill;
+	margin-right: 20px;
+
+}
+.img{
+min-height: 120px;
+
+}
+.card-container{
+	float: left;
+	min-height: 500px;
+	height: 100%;
+	margin-top: 30px;
+}
+.list-container{
+padding-top: 10px;
+}
+.flex{
+display: flex;
+	flex-wrap: wrap;
+	padding: 5px;
+}
+.flex-1 {
+	margin-top: -6px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	padding-bottom: 10px;
+}
+.card{
+	max-width: 200px;
+	padding: 6px;
+}
+span.item-desc{
+	display: none;
+}
+.filtr-button-all {
+  width: 80px;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: rgb(204, 204, 204);
+	box-shadow: none;
+	background: inherit;
+	font-family: Museo500Regular;
+	margin-top: 75px;
+}
+.filtr-button:hover {
+	box-shadow: 0px 0px 7px 3px #f58400;
+}
+
+.filtr-active{
+  box-shadow: 0px 0px 7px 3px #f58400;
+}
+.layout-active{
+  color: #f58400;
+}
+.view-btn:hover{
+	color: #f58400;
+	cursor: pointer;
+}
+input{
+border: none;}
+.search-box{
+	padding: 4px;
+	background: inherit;
+	border: 1px solid #666666;
+	height: 35px;
+	width: 150px;
+	color: rgb(204, 204, 204);
+	font-size: 22px;
+	text-align: center;
+	font-family: Museo500Regular;
+}
+
+.filtr-item{
+padding: 6px;
+}
+.Blue{
+background-color: #123F56;
+}
+.Red{
+background-color: #6B1B24;
+}
+.Green{
+background-color: #4B6331;
+}
+.Black{
+background-color: #2F2627;
+}
+.item{
+background-color: #D48C29;
+}
+.selected-card{
+	width: 18%;
+	float:left;
+}
+tr{
+}
+tr:hover{
+cursor: pointer;
+}
+.black-btn{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+background-color: #2F2627;
+}
+.green-btn{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+background-color: #4B6331;
+}
+.red-btn{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+background-color: #6B1B24;
+}
+.blue-btn{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+background-color: #123F56;
+}
+.hidden{
+display:none;
+}
+.btn-padding{
+padding: 3px;
+}
+.basic-btn{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+background-color: #B9AEA0;
+}
+.common-btn{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+background-color: #6B4126;
+}
+.uncommon-btn{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+background-color: #B6C7BD;
+}
+.rare-btn{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+background-color: #B28B2C;
+}
+.showcase-btn{
+border-width: 0px;
+	width: 40px;
+	height: 40px;
+	background-color: grey;
+}
+.icon-btn{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	background: #2F2627;
+	position: relative;
+}
+.icon-padding{
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+.title-container{
+	position: relative;
+	border: 1px solid #666666;
+	border-top: none;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	background-color: rgb(30, 30, 30);
+	width: 35%;
+	min-width: 250px;
+	margin:auto;
+	margin-top: -1px;
+	text-align: center;
+}
+.title{
+	position: relative;
+	top: 8px;
+	margin-top: 0px;
+	text-shadow: 1px 1px 1px #f58400;
+	color: #eee;
+}
+.filter-results{
+	position: absolute;
+	margin-top: 50px;
+	right: -85%;
+	bottom: 0px;
+	border: 1px solid #666666;
+	border-radius: 6px;
+	background-color: rgb(30, 30, 30);
+}
+.results-text{
+	margin: 6px 22px 6px;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #f58400;
+	border-radius: 4px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #c86c00;
+	border-radius: 4px;
+}
+body::-webkit-scrollbar-track {
+	border-left: 1px solid #666666;
+	background: rgb(30, 30, 30);
+}

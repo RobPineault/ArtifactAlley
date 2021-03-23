@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Draft Simulator</title>
+    <link href="stylesheets/draftsim.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/jquery-ui.structure.min.css" rel="stylesheet">
+    <link href="stylesheets/jquery-ui.theme.min.css" rel="stylesheet">
+    <link href="stylesheets/jquery-ui.min.css" rel="stylesheet">
+    <style>
+    body{
+      font-family: Museo500Regular;
+      margin: 0 80px 80px 80px;
+      background: rgb(51, 51, 51);
+      color: rgb(204, 204, 204);
+    }
+    </style>
+
+  </head>
+  <body>
+    <div class="header">
+      <img class="logo" alt="logo" src="images\artifact-alley-logo.png">
+    <div class="menu">
+    <nav>
+      <!--<a href="/">home</a>-->
+      <a href="/cards">Cards</a>
+      <a href="/deck-builder">Deck Builer</a>
+      <a class="page-active" href="/draft-simulator">Draft Simulator</a>
+    </nav>
+    </div>
+  </div>
+<div class="row-1">
+  <h2 class="page-title">Draft Simulator
+<div id="instructions-tooltip" class="instructions-tooltip"><a href="#" title="instructions"><span class="ui-icon ui-icon-info"></span></a></div>
+</h2>
+</div>
+<div class="row-2">
+<div class="draftGUI">
+  <div class="draft-gui-1">
+	<div class="pack-counter">
+	  <h4 class="label-counter">Pack</h4>
+	  <h4 class="pack-number">1 of 5</h4>
+	</div>
+	<div class="round-counter">
+	  <h4 class="label-counter">Round</h4>
+	  <h4 class="round-number">1 of 6</h4>
+	</div>
+<div class="help-container"><button id="help-btn" class="help-button help-active">Helper</button><div id="help-tooltip" class="help-tooltip"><a href="#" title="Toggle draft helper (cards will be rearranged)"><span class="ui-icon ui-icon-info"></span></a></div>
+</div>
+<button id="reset-btn" class="reset-button">Restart</button>
+</div>
+<div class="draft-gui-2">
+<div class="progressbar"><div id="progressbar"></div>
+<button class="pick-btn">Pick</button>
+</div>
+</div>
+</div>
+<div class="chartGUI">
+<div class="chart-container">
+  <img class="tab-background" src="./images/ui-images/ui-bg_gloss-wave_25_333333_500x100.png" alt="taback">
+   <div><button class="chart-btn color-chart-btn chart-active">color</button></div>
+   <div><button class="chart-btn mana-chart-btn">mana</button></div>
+   <div><button class="chart-btn item-chart-btn">item</button></div>
+</div>
+<div class="card-stats">
+<div class="colorcontainer"><canvas id="color-chart"></canvas></div>
+<div class="manacontainer hidden"><canvas id="mana-chart"></canvas></div>
+<div class="itemcontainer hidden"><canvas id="item-chart"></canvas></div>
+</div>
+<div class="card-list-container">
+  <table class="card-list">
+</table>
+      </div>
+</div>
+</div>
+<div class="row-3">
+	  <div class="pack-row-1"></div>
+    <div class="pack-row-2"></div>
+
+	<div class= picked-cards-display>
+
+	</div>
+</div>
+<script data-main="javascripts/lib/common" src="javascripts/lib/require.js"></script>
+<script>
+require(['common'], function(){
+	require(['app/draftsimulator'])
+})
+</script>
+</body>
+</html>

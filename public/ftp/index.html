@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href="css/home.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/jquery-ui.structure.min.css" rel="stylesheet">
+  	<link href="stylesheets/jquery-ui.theme.min.css" rel="stylesheet">
+  	<link href="stylesheets/jquery-ui.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="menu">
+    <nav>
+      <a href="/">home</a>
+      <a href="/cards">cards</a>
+      <a href="/deck-builder">deck builer</a>
+      <a href="/draft-simulator">draft simulator</a>
+    </nav>
+    </div>
+    <div class="background">
+
+<div class="welcome">
+<img class="welcome-background" src="https://artifactalley.com/wp-content/uploads/2019/05/brown-welcome-background.png" alt="background">
+<div class="welcome-text">
+<h2 class="welcome-title">Artifact: The DOTA card game</h2>
+<h4 class="welcome-message">Welcome to Artifact Alley! Use our card database and draft simulator to become a master at Artifact. Get creative and create the new meta with our deck builder.</h4>
+</div>
+</div>
+<div class="link-container">
+<div class="btn-size collection">
+<a href="www.artifactalley.com/cards/">
+<img class="collection-btn" src="https://artifactalley.com/wp-content/uploads/2019/05/red-button.png" alt="splash">
+<img class="collection-icon" src="https://artifactalley.com/wp-content/uploads/2019/05/kisspng-playing-card-computer-icons-board-game-card-game-card-technology-5af21219a46288.0663556115258137856733.png" alt="icon">
+</a>
+</div>
+<div class="btn-size builder">
+<a href="www.artifactalley.com/deck-builder/">
+<img class="builder-btn" src="https://artifactalley.com/wp-content/uploads/2019/05/new-blue-button.png" alt="splash">
+<img class="builder-icon" src="https://artifactalley.com/wp-content/uploads/2019/05/deck-builder-icon.png" alt="icon">
+</a>
+</div>
+<div class="btn-size simulator">
+<a href="www.artifactalley.com/draft-simulator/">
+<img class="simulation-btn" src="https://artifactalley.com/wp-content/uploads/2019/05/update-green-button.png" alt="splash">
+<img class="simulation-icon" src="https://artifactalley.com/wp-content/uploads/2019/05/simulation-icon.png" alt="icon">
+</a>
+</div>
+
+</div>
+</div>
+    <script src="jquery\dist\jquery.min.js"></script>
+    <script src="js/home.js"></script>
+    <script data-main="js/lib/common" src="requirejs/require.js"></script>
+    <script>
+    require(['common'], function(){
+    	require(['js/app/cardpage'])
+    })
+    </script>
+  </body>
+</html>>

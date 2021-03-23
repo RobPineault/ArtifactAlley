@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link href="stylesheets/deckbuilder.css" rel="stylesheet" type="text/css">
+  <link href="stylesheets/jquery-ui.structure.min.css" rel="stylesheet">
+  <link href="stylesheets/jquery-ui.theme.min.css" rel="stylesheet">
+  <link href="stylesheets/jquery-ui.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>Deck Builder - Artifact Alley</title>
+  <style>
+  body{
+    font-family: Museo500Regular;
+    margin: 0 80px 80px 80px;
+    background: rgb(51, 51, 51);
+    color: rgb(204, 204, 204);
+  }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <img class="logo" alt="logo" src="images\artifact-alley-logo.png">
+    <nav>
+    <!--<a href="/">home</a>-->
+      <a href="/cards">Cards</a>
+      <a class="page-active" href="/deck-builder">Deck Builer</a>
+      <a href="/draft-simulator">Draft Simulator</a>
+    </nav>
+  </div>
+  <div class="row-1">
+    <div class="filter-interface">
+      <div class="filter-row-1">
+        <div class="flex-end"></div>
+        <div class="hero-group">
+          <h4 class="label-heros">HEROS</h4>
+          <div class="hero-container">
+            <div class="btn-padding">
+
+              <button id="heroBtn" class="filtr-button icon-btn type" data-multifilter="5"><img class="icon-padding" src="images/heroicon.png" alt="grid" /></button>
+              <div class="hidden">Heros</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-small"></div>
+        <div class="main-group">
+          <h4 class="label-main">MAIN</h4>
+          <div class="main-container">
+            <div class="btn-padding">
+
+              <button id="spellBtn" class="filtr-button icon-btn type" data-multifilter="5"><img class="icon-padding" src="images/spell.png" alt="grid" /></button>
+              <div class="hidden">Spells</div>
+
+            </div>
+            <div class="btn-padding">
+
+              <button id="creepBtn" class="filtr-button icon-btn type" data-multifilter="5"><img class="icon-padding" src="images/creep.png" alt="grid" /></button>
+              <div class="hidden">Creeps</div>
+
+            </div>
+            <div class="btn-padding">
+
+              <button id="improvementBtn" class="filtr-button icon-btn type" data-multifilter="5"><img class="icon-padding" src="images/improvement.png" alt="grid" /></button>
+              <div class="hidden">Improvements</div>
+
+            </div>
+          </div>
+        </div>
+        <div class="flex-small"></div>
+        <div class="main-group">
+          <h4 class="label-items">ITEMS</h4>
+
+          <div class="item-container">
+            <div class="btn-padding">
+              <button id="armorBtn" class="filtr-button icon-btn subtype" data-multifilter="5"><img class="icon-padding" src="images/Armor_symbol.png" alt="grid" /></button>
+              <div class="hidden">Armor</div>
+            </div>
+            <div class="btn-padding">
+              <button id="consumableBtn" class="filtr-button icon-btn subtype" data-multifilter="5"><img class="icon-padding" src="images/flask.png" alt="grid" /></button>
+              <div class="hidden">Consumable</div>
+            </div>
+            <div class="btn-padding">
+              <button id="weaponBtn" class="filtr-button icon-btn subtype" data-multifilter="5"><img class="icon-padding" src="images/Attack_symbol.png" alt="grid" /></button>
+              <div class="hidden">Weapon</div>
+            </div>
+            <div class="btn-padding">
+              <button id="accessoryBtn" class="filtr-button icon-btn subtype" data-multifilter="5"><img class="icon-padding" src="images/Health_symbol.png" alt="grid" /></button>
+              <div class="hidden">Accessory</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-large"></div>
+        <div class="btn-group">
+          <h4 class="label-color">COLOR</h4>
+          <div class="color-container">
+            <div class="btn-padding">
+              <button id="blackBtn" class="filtr-button black-btn color"></button>
+              <div class="hidden">black</div>
+            </div>
+            <div class="btn-padding">
+              <button id="greenBtn" class="filtr-button green-btn color"></button>
+              <div class="hidden">green</div>
+            </div>
+            <div class="btn-padding">
+              <button id="redBtn" class="filtr-button red-btn color"></button>
+              <div class="hidden">red</div>
+            </div>
+            <div class="btn-padding">
+              <button id="blueBtn" class="filtr-button blue-btn color"></button>
+              <div class="hidden">blue</div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-large"></div>
+        <div class="btn-group">
+          <h4 class="label-rarity">RARITY</h4>
+          <div class="rarity-container">
+            <div class="btn-padding">
+              <div class="hidden">common</div>
+              <button id="commonBtn" class="filtr-button common-btn rarity"></button>
+            </div>
+            <div class="btn-padding">
+              <div class="hidden">uncommon</div>
+              <button id="uncommonBtn" class="filtr-button uncommon-btn rarity"></button>
+            </div>
+            <div class="btn-padding">
+              <div class="hidden">rare</div>
+              <button id="rareBtn" class="filtr-button rare-btn rarity"></button>
+            </div>
+            <div class="btn-padding">
+              <div class="hidden">basic</div>
+              <button id="basicBtn" class="filtr-button basic-btn rarity"></button>
+            </div>
+          </div>
+        </div>
+        <div class="flex-small"></div>
+        <button class="filtr-button-all filtr-active">X</button>
+        <div class="flex-small"></div>
+        <input id="cardsearch" class="search-box" name="search" type="text" value="" placeholder="Search" />
+        <div class="flex-end"></div>
+      </div>
+    </div>
+    <div class="deck-menu">
+      <input id="deck-name" class="deck-name" type="text" value="" placeholder="Deck Name" />
+      <div class="option-buttons">
+        <button id="save-btn" class="save-btn menu-btn">SAVE</button>
+        <button id="clear-btn" class="clear-btn menu-btn">CLEAR</button>
+        <button id="hand-btn" class="menu-btn">HAND</button></div>
+      </div>
+    </div>
+    <div class="row-2">
+      <div id="listBtn" class="layout-active"></div>
+      <div id="card-preview" class="selected-card-container"></div>
+      <div class="deck-display">
+        <div class="table-background">
+          <div class="table-container">
+            <table id="cardlist" class="all-cards"></table>
+          </div>
+        </div>
+        <div class="display-container">
+          <div class="heros-container">
+            <div class="heros-info">
+              <div class="blue-line"></div>
+              <h2 class="heros-title">Heros</h2>
+              <div class="blue-line"></div>
+            </div>
+            <div class="heros-display">
+              <div class="hero-background-1 hero-background "><div class="round">Round</div><div class="round-number">1</div><h4 id="hero-1" class="hero-mini"></h4></div>
+              <div class="hero-background-2 hero-background"><div class="round">Round</div><div class="round-number">1</div><h4 id="hero-2" class="hero-mini"></h4></div>
+              <div class="hero-background-3 hero-background"><div class="round">Round</div><div class="round-number">1</div><h4 id="hero-3" class="hero-mini"></h4></div>
+              <div class="hero-background-4 hero-background"><div class="round">Round</div><div class="round-number">2</div><h4 id="hero-4" class="hero-mini"></h4><div class="hero-divider"></div></div>
+              <div class="hero-background-5 hero-background"><div class="round">Round</div><div class="round-number">3</div><h4 id="hero-5" class="hero-mini"></h4><div class="hero-divider"></div></div>
+            </div>
+          </div>
+
+          <div class="deck-stats">
+            <div class="main-stats">
+              <div class="stats-title-container">
+                <div class="blue-line"></div>
+                <h4 class="stats-title">Main</h4>
+                <h4 class="main-counter">0/40+</h4>
+                <div class="blue-line"></div>
+              </div>
+              <div class="stats-details-main">
+                <div class="detail-top"></div>
+                <div class="detail-left"></div>
+                <div class="detail-right"></div>
+                <div class="detail-container">
+                  <img class="detail-icon" alt="spell" src="images/spell.png">
+                  <h4 class="spell-count detail-counter">0</h4>
+                </div>
+                <div class="detail-container">
+                  <img class="detail-icon" alt="creep" src="images/creep.png">
+                  <h4 class="creep-count detail-counter">0</h4>
+                </div>
+                <div class="detail-container">
+                  <img class="detail-icon" alt="improvement" src="images/improvement.png">
+                  <h4 class="improvement-count detail-counter">0</h4>
+                </div>
+              </div>
+            </div>
+            <div class="item-stats">
+              <div class="stats-title-container">
+                <div class="blue-line"></div>
+                <h4 class="stats-title">Items</h4>
+                <h4 class="item-counter">0/9+</h4>
+                <div class="blue-line"></div>
+              </div>
+              <div class="stats-details-item">
+                <div class="detail-top"></div>
+                <div class="detail-left"></div>
+                <div class="detail-right"></div>
+                <div class="detail-container">
+                  <img class="detail-icon-s" alt="weapon" src="images/Attack_symbol.png">
+                  <h4 class="weapon-count detail-counter">0</h4>
+                </div>
+                <div class="detail-container">
+                  <img class="detail-icon-s" alt="armor" src="images/Armor_symbol.png">
+                  <h4 class="armor-count detail-counter">0</h4>
+                </div>
+                <div class="detail-container">
+                  <img class="detail-icon-s" alt="accessory" src="images/Health_symbol.png">
+                  <h4 class="accessory-count detail-counter">0</h4>
+                </div>
+                <div class="detail-container">
+                  <img class="detail-icon-s" alt="consumable" src="images/flask.png">
+                  <h4 class="consumable-count detail-counter">0</h4>
+                </div>
+              </div>
+            </div>
+            <div class="stats-title-container">
+              <div class="blue-line"></div>
+              <h4 class="stats-title">Mana Curve</h4>
+              <div class="blue-line"></div>
+            </div>
+            <div class="manacontainer"><canvas id="mana-chart"></canvas></div>
+          </div>
+          <div class="main-cards-container">
+            <div class="main-cards">
+              <table class="deck-main"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script data-main="javascripts/lib/common" src="javascripts/lib/require.js"></script>
+    <script>
+    require(['common'], function(){
+      require(['app/deckbuilder'])
+    })
+    </script>
+  </body>
+  </html>

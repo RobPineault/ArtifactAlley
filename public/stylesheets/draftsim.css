@@ -1,0 +1,422 @@
+<!DOCTYPE css>
+img{
+  width:100%;
+  object-fit: fill;
+}
+button:focus {outline:0;}
+h4{
+	font-size: 24px;
+}
+table{
+  border-spacing: 0;
+}
+tr{
+color: white;
+}
+th{
+  border-bottom: 1px solid #666666;
+}
+td{
+max-height: 40px;
+vertical-align: middle;
+text-align:left;
+border-bottom: 1px solid black;
+}
+nav{
+  position: absolute;
+  right: 80px;
+  border-left: 1px solid #666666;
+}
+nav a{
+  float:left;
+  padding: 15px 20px 15px 20px;
+  font-family: Museo500Regular;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid #666666;
+}
+.logo{
+  position: absolute;
+  left: 60px;
+  top: 6px;
+  z-index: 2;
+  height: 40px;
+}
+.menu{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-left: -80px;
+  padding-right: 160px;
+	background-color: rgb(30, 30, 30);
+  border-bottom: 1px solid #666666;
+}
+nav a:hover{
+  background: #f58400 url("../images/ui-images/ui-bg_inset-soft_30_f58400_1x100.png") 50% 50% repeat-x;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.page-active{
+  background: #f58400 url("../images/ui-images/ui-bg_inset-soft_30_f58400_1x100.png") 50% 50% repeat-x;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.row-1{
+  height: 85px;
+  margin: 25px 0 0px 0;
+}
+.page-title{
+  position: relative;
+  float: left;
+  padding: 10px 35px 10px;
+  font-size: 34px;
+  text-shadow: 1px 1px 1px #f58400;
+  background: rgb(30, 30, 30);
+  margin: 0;
+  border: 1px solid #666666;
+  border-radius: 6px;
+}
+.instructions-tooltip{
+  position: absolute;
+  right: 7px;
+  top: 12px;
+}
+.label-counter{
+  margin: 0px 25px 5px 25px;
+  font-size: 28px;
+
+}
+
+.row-2{
+	height: 150px;
+	position:relative;
+  border: 1px solid #666666;
+	border-radius: 0 0 0 6px;
+	background-color: rgb(30, 30, 30);
+}
+.pack-counter{
+  margin-top: 10px;
+  margin-left: 5%;
+	float:left;
+}
+.pack-number{
+  margin: 0px;
+  text-align: center;
+}
+.round-counter{
+  margin-top: 10px;
+	margin-left: 6%;
+	float:left;
+}
+.round-number{
+  margin: 0px;
+  text-align: center;
+}
+.pick-btn{
+	padding: 10px 20px 10px;
+	position:absolute;
+	right: 1.5%;
+  top: -3px;
+	font-family: Museo500Regular;
+  font-size: 18px;
+  border: 1px solid #666666;
+  background-color: inherit;
+  color: inherit;
+}
+.pick-btn-active:hover{
+  cursor: pointer;
+}
+.reset-button{
+  margin: 22px 0 0 8%;
+  padding: 11px 20px 11px;
+  font-size: 18px;
+  font-family: Museo500Regular;
+  border: 1px solid #666666;
+  background-color: inherit;
+  float: left;
+  color: inherit;
+}
+.reset-button:hover{
+	cursor: pointer;
+  box-shadow: 0px 0px 7px 3px #f58400;
+}
+.help-container{
+  margin: 22px 0 0 8%;
+  float:left;
+}
+.help-button{
+	padding: 11px 20px 11px;
+  font-size: 18px;
+	font-family: Museo500Regular;
+  font-weight: 500;
+	border: 1px solid #666666;
+  background-color: inherit;
+  float: left;
+  color: inherit;
+}
+.help-button:hover{
+  cursor: pointer;
+}
+.help-active{
+  background-color: inherit;
+  box-shadow: 0px 0px 7px 3px #f58400;
+}
+.help-tooltip{
+  margin: 13px 0 0 10px;
+  float: left;
+}
+.row-3{
+  position: relative;
+  margin-top: 12px;
+	height: 500px;
+}
+.pack-container{
+	width: 73%;
+
+	float:left;
+}
+.pack-row-1{
+  margin-left: .5%;
+  margin-top: 5px;
+  display: block;
+  float:left;
+  width: 72%;
+}
+.pack-row-2{
+  margin-left: .5%;
+  display: block;
+  float:left;
+  width: 72%;
+}
+.draftGUI{
+	width: 73%;
+  height: 100%;
+	position:relative;
+}
+.draft-gui-1{
+  height: 93px;
+  position: relative;
+}
+.draft-gui-2{
+  position: relative;
+  height: 57px;
+}
+.progressbar{
+  margin-left: 3%;
+  width: calc(92.5% - 74px);
+}
+.chartGUI{
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  width: 26%;
+  z-index: 3;
+}
+.card{
+  display: block;
+	position: relative;
+	margin-left: .4%;
+  margin-right: .4%;
+	width:15.8%;
+	float: left;
+	margin-bottom: 12px;
+}
+.card:hover{
+
+}
+.card-active{
+	box-shadow: inset 0px 0px 3px #f58400, 0px 0px 10px #f58400;
+}
+.card-image{
+	position: relative;
+  width: 100%;
+  border-radius: 5px;
+}
+.card-image:hover{
+	cursor: pointer;
+}
+
+.picked-cards-display{
+  position: absolute;
+  right: 0;
+  top: -13px;
+  border: 1px solid #666666;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  background-color: rgb(30, 30, 30);
+	width: 26%;
+	height: 550px;
+}
+.card-stats{
+  min-height: 150px;
+}
+.card-list-container{
+	margin-top: 10px;
+  margin-right: 3px;
+  margin-left: 0px;
+  height: 450px;
+	overflow-y: auto;
+}
+
+.two-selected{
+  box-shadow: 0px 0px 7px 3px #f58400;
+  background-color: inherit;
+}
+.two-selected:hover{
+  cursor: pointer;
+}
+.Blue{
+background-color: #123F56;}
+.Red{
+background-color: #6B1B24;}
+.Green{
+background-color: #4B6331;}
+.Black{
+background-color: #2F2627;}
+.item{
+background-color: #E1992C;}
+.card-quantity{
+	text-align:right;
+	padding-right: 5px;
+}
+.mini-image{
+  width: 40px;
+	line-height: 0px;}
+.card-list{
+  width: 100%;
+}
+.chart-container{
+  position: relative;
+  margin-top: -49px;
+  height: 44px;
+  padding: 5px 5px 0 5px;
+	display:flex;
+  border: 1px solid #666666;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  background-color: rgb(30, 30, 30);
+}
+.tab-background{
+  position: relative;
+  object-fit: fill;
+  width: 100%;
+}
+.chart-btn{
+  position: absolute;
+  bottom: 0px;
+  font-family: Museo500Regular;
+  font-weight: 600;
+  color: #eee;
+  padding: 7px 12px 5px 12px;
+  font-size: 22px;
+  background: #f58400 url("../images/ui-images/ui-bg_inset-soft_25_000000_1x100.png") 50% 70% repeat-x;
+	border-radius: 8px 8px 0px 0px;
+  border: 1px solid #555;
+}
+.color-chart-btn{
+	left: 12px;
+}
+.mana-chart-btn{
+	left: 90px;
+}
+.item-chart-btn{
+	left: 172px;
+}
+.chart-btn:hover{
+	background: #f58400 url("../images/ui-images/ui-bg_inset-soft_30_f58400_1x100.png") 50% 50% repeat-x;
+  border: 1px solid #ffaf0f;
+  border-radius: 8px 8px 0px 0px;
+  cursor: pointer;
+  color: #eee;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 600;
+}
+.chart-active{
+  background: #f58400 url("../images/ui-images/ui-bg_inset-soft_30_f58400_1x100.png") 50% 50% repeat-x;
+  border: 1px solid #ffaf0f;
+	border-radius: 8px 8px 0px 0px;
+  color: #eee;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 600;
+}
+.hidden{
+	display:none;
+}
+.tier{
+	position:absolute;
+	right: 5px;
+  top: 1px;
+	z-index: 2;
+	color: white;
+}
+
+.faded-card{
+	box-shadow:inset 3px 3px 40px #000000;
+	position:absolute;
+	top: 0;
+  right: 0;
+  width: 100%;
+  height: calc(100% - 4px);
+	border-radius:5px;
+}
+.abilitys{
+	position: absolute;
+	top: 59%;
+	height:17%;
+	padding-left: 4%;
+	width:100%;
+}
+.ability-one{
+	position: absolute;
+	top: 59%;
+	padding-left: 4%;
+	width: 29%;
+	height: 17%;
+	z-index: 3;
+	cursor: help;
+}
+.pop-up{
+	position: absolute;
+	width: 220px;
+	height: auto;
+  transform: translate(-50px,50px);
+	background-image: url("../images/ui-images/ui-bg_gloss-wave_25_333333_500x100.png");
+	background-size: cover;
+	z-index: 6;
+	padding: 2px 4px 2px;
+}
+.ability-name{
+	color: white;
+	width: 100%;
+	height: auto;
+	font-family: Museo500Regular;
+	font-size: 18px;
+}
+.ability-desc{
+	width: 100%;
+	color: white;
+	height: auto;
+	font-family: Museo500Regular;
+}
+.ability-type{
+
+	color: silver;
+	font-family: Museo500Regular;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #f58400;
+	border-radius: 4px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #c86c00;
+	border-radius: 4px;
+}
+body::-webkit-scrollbar-track {
+	border-left: 1px solid #666666;
+	background: rgb(30, 30, 30);
+}

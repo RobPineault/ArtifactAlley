@@ -1,0 +1,1225 @@
+[
+{
+    "card name": "Abaddon",
+    "tier": "C",
+    "tier rank": 8
+  },
+  {
+    "card name": "Axe",
+    "tier": "S",
+    "tier rank": 1
+  },
+  {
+    "card name": "Beastmaster",
+    "tier": "B",
+    "tier rank": 2
+  },
+  {
+    "card name": "Bloodseeker",
+    "tier": "D",
+    "tier rank": 2
+  },
+  {
+    "card name": "Bounty Hunter",
+    "tier": "A",
+    "tier rank": 5
+  },
+  {
+    "card name": "Bristleback",
+    "tier": "B",
+    "tier rank": 1
+  },
+  {
+    "card name": "Centaur Warrunner",
+    "tier": "C",
+    "tier rank": 7
+  },
+  {
+    "card name": "Chen",
+    "tier": "B",
+    "tier rank": 5
+  },
+  {
+    "card name": "Crystal Maiden",
+    "tier": "D",
+    "tier rank": 1
+  },
+  {
+    "card name": "Dark Seer",
+    "tier": "C",
+    "tier rank": 1
+  },
+  {
+    "card name": "Debbi the Cunning",
+    "tier": "C",
+    "tier rank": 2
+  },
+  {
+    "card name": "Drow Ranger",
+    "tier": "S",
+    "tier rank": 2
+  },
+  {
+    "card name": "Earthshaker",
+    "tier": "B",
+    "tier rank": 14
+  },
+  {
+    "card name": "Enchantress",
+    "tier": "B",
+    "tier rank": 3
+  },
+  {
+    "card name": "Farvhan the Dreamer",
+    "tier": "C",
+    "tier rank": 5
+  },
+  {
+    "card name": "J'Muy the Wise",
+    "tier": "C",
+    "tier rank": 4
+  },
+  {
+    "card name": "Kanna",
+    "tier": "S",
+    "tier rank": 3
+  },
+  {
+    "card name": "Keefe the Bold",
+    "tier": "C",
+    "tier rank": 11
+  },
+  {
+    "card name": "Legion Commander",
+    "tier": "S",
+    "tier rank": 6
+  },
+  {
+    "card name": "Lich",
+    "tier": "S",
+    "tier rank": 4
+  },
+  {
+    "card name": "Lion",
+    "tier": "D",
+    "tier rank": 4
+  },
+  {
+    "card name": "Luna",
+    "tier": "A",
+    "tier rank": 4
+  },
+  {
+    "card name": "Lycan",
+    "tier": "A",
+    "tier rank": 1
+  },
+  {
+    "card name": "Magnus",
+    "tier": "B",
+    "tier rank": 8
+  },
+  {
+    "card name": "Mazzie",
+    "tier": "C",
+    "tier rank": 3
+  },
+  {
+    "card name": "Meepo",
+    "tier": "F",
+    "tier rank": 2
+  },
+  {
+    "card name": "Necrophos",
+    "tier": "C",
+    "tier rank": 6
+  },
+  {
+    "card name": "Ogre Magi",
+    "tier": "A",
+    "tier rank": 6
+  },
+  {
+    "card name": "Omniknight",
+    "tier": "A",
+    "tier rank": 3
+  },
+  {
+    "card name": "Outworld Devourer",
+    "tier": "F",
+    "tier rank": 4
+  },
+  {
+    "card name": "Phantom Assassin",
+    "tier": "A",
+    "tier rank": 2
+  },
+  {
+    "card name": "Prellex",
+    "tier": "B",
+    "tier rank": 13
+  },
+  {
+    "card name": "Pugna",
+    "tier": "D",
+    "tier rank": 3
+  },
+  {
+    "card name": "Rix",
+    "tier": "F",
+    "tier rank": 3
+  },
+  {
+    "card name": "Skywrath Mage",
+    "tier": "B",
+    "tier rank": 10
+  },
+  {
+    "card name": "Sniper",
+    "tier": "A",
+    "tier rank": 7
+  },
+  {
+    "card name": "Sorla Khan",
+    "tier": "B",
+    "tier rank": 4
+  },
+  {
+    "card name": "Storm Spirit",
+    "tier": "F",
+    "tier rank": 1
+  },
+  {
+    "card name": "Sven",
+    "tier": "B",
+    "tier rank": 9
+  },
+  {
+    "card name": "Tidehunter",
+    "tier": "C",
+    "tier rank": 12
+  },
+  {
+    "card name": "Timbersaw",
+    "tier": "C",
+    "tier rank": 10
+  },
+  {
+    "card name": "Tinker",
+    "tier": "S",
+    "tier rank": 5
+  },
+  {
+    "card name": "Treant Protector",
+    "tier": "A",
+    "tier rank": 8
+  },
+  {
+    "card name": "Ursa",
+    "tier": "B",
+    "tier rank": 7
+  },
+  {
+    "card name": "Venomancer",
+    "tier": "B",
+    "tier rank": 12
+  },
+  {
+    "card name": "Viper",
+    "tier": "C",
+    "tier rank": 9
+  },
+  {
+    "card name": "Winter Wyvern",
+    "tier": "B",
+    "tier rank": 11
+  },
+  {
+    "card name": "Zeus",
+    "tier": "B",
+    "tier rank": 6
+  },
+    
+    {
+    "card name": "...And One For Me",
+    "tier": "C",
+    "tier rank": 10
+  },
+  {
+    "card name": "Aghanim's Sanctum",
+    "tier": "A",
+    "tier rank": 6
+  },
+  {
+    "card name": "Altar of the Mad Moon",
+    "tier": "C",
+    "tier rank": 25
+  },
+  {
+    "card name": "Annihilation",
+    "tier": "S",
+    "tier rank": 4
+  },
+  {
+    "card name": "Arcane Assault",
+    "tier": "C",
+    "tier rank": 9
+  },
+  {
+    "card name": "Arcane Censure",
+    "tier": "F",
+    "tier rank": 12
+  },
+  {
+    "card name": "Arm the Rebellion",
+    "tier": "A",
+    "tier rank": 25
+  },
+  {
+    "card name": "Assassin's Apprentice",
+    "tier": "B",
+    "tier rank": 23
+  },
+  {
+    "card name": "Assassin's Shadow",
+    "tier": "B",
+    "tier rank": 38
+  },
+  {
+    "card name": "Assured Destruction",
+    "tier": "D",
+    "tier rank": 22
+  },
+  {
+    "card name": "At Any Cost",
+    "tier": "A",
+    "tier rank": 4
+  },
+  {
+    "card name": "Avernus' Blessing",
+    "tier": "C",
+    "tier rank": 19
+  },
+  {
+    "card name": "Bellow",
+    "tier": "D",
+    "tier rank": 28
+  },
+  {
+    "card name": "Better Late Than Never",
+    "tier": "D",
+    "tier rank": 12
+  },
+  {
+    "card name": "Bitter Enemies",
+    "tier": "D",
+    "tier rank": 21
+  },
+  {
+    "card name": "Bolt of Damocles",
+    "tier": "B",
+    "tier rank": 37
+  },
+  {
+    "card name": "Bronze Legionnaire",
+    "tier": "A",
+    "tier rank": 7
+  },
+  {
+    "card name": "Burning Oil",
+    "tier": "B",
+    "tier rank": 28
+  },
+  {
+    "card name": "Buying Time",
+    "tier": "D",
+    "tier rank": 13
+  },
+  {
+    "card name": "Call the Reserves",
+    "tier": "D",
+    "tier rank": 18
+  },
+  {
+    "card name": "Caught Unprepared",
+    "tier": "C",
+    "tier rank": 7
+  },
+  {
+    "card name": "Champion of the Ancient",
+    "tier": "B",
+    "tier rank": 2
+  },
+  {
+    "card name": "Cheating Death",
+    "tier": "B",
+    "tier rank": 12
+  },
+  {
+    "card name": "Cleansing Rite",
+    "tier": "F",
+    "tier rank": 13
+  },
+  {
+    "card name": "Clear The Deck",
+    "tier": "B",
+    "tier rank": 16
+  },
+  {
+    "card name": "Collateral Damage",
+    "tier": "D",
+    "tier rank": 25
+  },
+  {
+    "card name": "Combat Training",
+    "tier": "C",
+    "tier rank": 20
+  },
+  {
+    "card name": "Compel",
+    "tier": "B",
+    "tier rank": 6
+  },
+  {
+    "card name": "Conflagration",
+    "tier": "S",
+    "tier rank": 8
+  },
+  {
+    "card name": "Coordinated Assault",
+    "tier": "A",
+    "tier rank": 23
+  },
+  {
+    "card name": "Corrosive Mist",
+    "tier": "C",
+    "tier rank": 24
+  },
+  {
+    "card name": "Crippling Blow",
+    "tier": "D",
+    "tier rank": 7
+  },
+  {
+    "card name": "Cunning Plan",
+    "tier": "B",
+    "tier rank": 7
+  },
+  {
+    "card name": "Curse of Atrophy",
+    "tier": "C",
+    "tier rank": 27
+  },
+  {
+    "card name": "Cursed Satyr",
+    "tier": "C",
+    "tier rank": 17
+  },
+  {
+    "card name": "Defend the Weak",
+    "tier": "B",
+    "tier rank": 34
+  },
+  {
+    "card name": "Defensive Bloom",
+    "tier": "B",
+    "tier rank": 26
+  },
+  {
+    "card name": "Defensive Stance",
+    "tier": "F",
+    "tier rank": 1
+  },
+  {
+    "card name": "Diabolic Revelation",
+    "tier": "D",
+    "tier rank": 10
+  },
+  {
+    "card name": "Dimensional Portal",
+    "tier": "A",
+    "tier rank": 1
+  },
+  {
+    "card name": "Dirty Deeds",
+    "tier": "F",
+    "tier rank": 9
+  },
+  {
+    "card name": "Disciple of Nevermore",
+    "tier": "A",
+    "tier rank": 13
+  },
+  {
+    "card name": "Divine Intervention",
+    "tier": "B",
+    "tier rank": 14
+  },
+  {
+    "card name": "Divine Purpose",
+    "tier": "D",
+    "tier rank": 32
+  },
+  {
+    "card name": "Emissary of the Quorum",
+    "tier": "S",
+    "tier rank": 5
+  },
+  {
+    "card name": "Enough Magic!",
+    "tier": "B",
+    "tier rank": 29
+  },
+  {
+    "card name": "Escape Route",
+    "tier": "C",
+    "tier rank": 22
+  },
+  {
+    "card name": "Fight Through The Pain",
+    "tier": "D",
+    "tier rank": 1
+  },
+  {
+    "card name": "Fog of War",
+    "tier": "D",
+    "tier rank": 16
+  },
+  {
+    "card name": "Foresight",
+    "tier": "B",
+    "tier rank": 5
+  },
+  {
+    "card name": "Forward Charge",
+    "tier": "D",
+    "tier rank": 23
+  },
+  {
+    "card name": "Fractured Timeline",
+    "tier": "C",
+    "tier rank": 11
+  },
+  {
+    "card name": "Friendly Fire",
+    "tier": "A",
+    "tier rank": 8
+  },
+  {
+    "card name": "Gank",
+    "tier": "A",
+    "tier rank": 15
+  },
+  {
+    "card name": "Glyph of Confusion",
+    "tier": "D",
+    "tier rank": 19
+  },
+  {
+    "card name": "Grand Melee",
+    "tier": "F",
+    "tier rank": 2
+  },
+  {
+    "card name": "Grazing Shot",
+    "tier": "C",
+    "tier rank": 18
+  },
+  {
+    "card name": "Hellbear Crippler",
+    "tier": "B",
+    "tier rank": 39
+  },
+  {
+    "card name": "Heroic Resolve",
+    "tier": "D",
+    "tier rank": 3
+  },
+  {
+    "card name": "Hip Fire",
+    "tier": "B",
+    "tier rank": 13
+  },
+  {
+    "card name": "Homefield Advantage",
+    "tier": "B",
+    "tier rank": 31
+  },
+  {
+    "card name": "Howling Mind",
+    "tier": "D",
+    "tier rank": 14
+  },
+  {
+    "card name": "Incarnation of Selemene",
+    "tier": "B",
+    "tier rank": 10
+  },
+  {
+    "card name": "Intimidation",
+    "tier": "B",
+    "tier rank": 33
+  },
+  {
+    "card name": "Iron Branch Protection",
+    "tier": "D",
+    "tier rank": 29
+  },
+  {
+    "card name": "Iron Fog Goldmine",
+    "tier": "A",
+    "tier rank": 9
+  },
+  {
+    "card name": "Juke",
+    "tier": "D",
+    "tier rank": 27
+  },
+  {
+    "card name": "Keenfolk Golem",
+    "tier": "C",
+    "tier rank": 26
+  },
+  {
+    "card name": "Keenfolk Turret",
+    "tier": "B",
+    "tier rank": 15
+  },
+  {
+    "card name": "Legion Standard Bearer",
+    "tier": "A",
+    "tier rank": 29
+  },
+  {
+    "card name": "Lightning Strike",
+    "tier": "C",
+    "tier rank": 16
+  },
+  {
+    "card name": "Lodestone Demolition",
+    "tier": "F",
+    "tier rank": 10
+  },
+  {
+    "card name": "Lost in Time",
+    "tier": "B",
+    "tier rank": 32
+  },
+  {
+    "card name": "Marrowfell Brawler",
+    "tier": "A",
+    "tier rank": 18
+  },
+  {
+    "card name": "Mercenary Exiles",
+    "tier": "A",
+    "tier rank": 28
+  },
+  {
+    "card name": "Messenger Rookery",
+    "tier": "B",
+    "tier rank": 27
+  },
+  {
+    "card name": "Mist of Avernus",
+    "tier": "S",
+    "tier rank": 1
+  },
+  {
+    "card name": "Murder Plot",
+    "tier": "B",
+    "tier rank": 3
+  },
+  {
+    "card name": "New Orders",
+    "tier": "C",
+    "tier rank": 14
+  },
+  {
+    "card name": "Horde Catapult",
+    "tier": "F",
+    "tier rank": 8
+  },
+  {
+    "card name": "Oglodi Vandal",
+    "tier": "A",
+    "tier rank": 16
+  },
+  {
+    "card name": "Ogre Conscript",
+    "tier": "A",
+    "tier rank": 12
+  },
+  {
+    "card name": "Ogre Corpse Tosser",
+    "tier": "B",
+    "tier rank": 21
+  },
+  {
+    "card name": "Path of the Bold",
+    "tier": "D",
+    "tier rank": 5
+  },
+  {
+    "card name": "Path of the Cunning",
+    "tier": "F",
+    "tier rank": 11
+  },
+  {
+    "card name": "Path of the Dreamer",
+    "tier": "D",
+    "tier rank": 30
+  },
+  {
+    "card name": "Path of the Wise",
+    "tier": "D",
+    "tier rank": 15
+  },
+  {
+    "card name": "Payday",
+    "tier": "B",
+    "tier rank": 19
+  },
+  {
+    "card name": "Pick A Fight",
+    "tier": "C",
+    "tier rank": 15
+  },
+  {
+    "card name": "Pick Off",
+    "tier": "A",
+    "tier rank": 22
+  },
+  {
+    "card name": "Pit Fighter of Quoidge",
+    "tier": "B",
+    "tier rank": 22
+  },
+  {
+    "card name": "Poised to Strike",
+    "tier": "D",
+    "tier rank": 2
+  },
+  {
+    "card name": "Rampaging Hellbear",
+    "tier": "C",
+    "tier rank": 4
+  },
+  {
+    "card name": "Ravenhook",
+    "tier": "D",
+    "tier rank": 26
+  },
+  {
+    "card name": "Ravenous Mass",
+    "tier": "C",
+    "tier rank": 21
+  },
+  {
+    "card name": "Raze",
+    "tier": "D",
+    "tier rank": 8
+  },
+  {
+    "card name": "Rebel Decoy",
+    "tier": "B",
+    "tier rank": 1
+  },
+  {
+    "card name": "Rebel Instigator",
+    "tier": "C",
+    "tier rank": 2
+  },
+  {
+    "card name": "Red Mist Pillager",
+    "tier": "A",
+    "tier rank": 3
+  },
+  {
+    "card name": "Relentless Pursuit",
+    "tier": "B",
+    "tier rank": 9
+  },
+  {
+    "card name": "Relentless Zombie",
+    "tier": "C",
+    "tier rank": 3
+  },
+  {
+    "card name": "Remote Detonation",
+    "tier": "B",
+    "tier rank": 30
+  },
+  {
+    "card name": "Rend Armor",
+    "tier": "F",
+    "tier rank": 3
+  },
+  {
+    "card name": "Restoration Effort",
+    "tier": "F",
+    "tier rank": 14
+  },
+  {
+    "card name": "Revtel Convoy",
+    "tier": "A",
+    "tier rank": 27
+  },
+  {
+    "card name": "Revtel Investments",
+    "tier": "C",
+    "tier rank": 8
+  },
+  {
+    "card name": "Rising Anger",
+    "tier": "D",
+    "tier rank": 4
+  },
+  {
+    "card name": "Rolling Storm",
+    "tier": "F",
+    "tier rank": 6
+  },
+  {
+    "card name": "Roseleaf Rejuvenator",
+    "tier": "B",
+    "tier rank": 11
+  },
+  {
+    "card name": "Routed",
+    "tier": "D",
+    "tier rank": 9
+  },
+  {
+    "card name": "Rumusque Blessing",
+    "tier": "A",
+    "tier rank": 20
+  },
+  {
+    "card name": "Satyr Duelist",
+    "tier": "B",
+    "tier rank": 20
+  },
+  {
+    "card name": "Satyr Magician",
+    "tier": "B",
+    "tier rank": 8
+  },
+  {
+    "card name": "Selemene's Favor",
+    "tier": "B",
+    "tier rank": 18
+  },
+  {
+    "card name": "Self Sabotage",
+    "tier": "D",
+    "tier rank": 17
+  },
+  {
+    "card name": "Selfish Cleric",
+    "tier": "A",
+    "tier rank": 24
+  },
+  {
+    "card name": "Sister of the Veil",
+    "tier": "B",
+    "tier rank": 25
+  },
+  {
+    "card name": "Slay",
+    "tier": "B",
+    "tier rank": 4
+  },
+  {
+    "card name": "Smash Their Defenses!",
+    "tier": "B",
+    "tier rank": 35
+  },
+  {
+    "card name": "Smeevil Armsmaster",
+    "tier": "C",
+    "tier rank": 6
+  },
+  {
+    "card name": "Smeevil Blacksmith",
+    "tier": "D",
+    "tier rank": 31
+  },
+  {
+    "card name": "Soul of Spring",
+    "tier": "A",
+    "tier rank": 5
+  },
+  {
+    "card name": "Spot Weakness",
+    "tier": "C",
+    "tier rank": 23
+  },
+  {
+    "card name": "Spring the Trap",
+    "tier": "S",
+    "tier rank": 6
+  },
+  {
+    "card name": "Stars Align",
+    "tier": "C",
+    "tier rank": 13
+  },
+  {
+    "card name": "Steal Strength",
+    "tier": "A",
+    "tier rank": 19
+  },
+  {
+    "card name": "Steam Cannon",
+    "tier": "A",
+    "tier rank": 21
+  },
+  {
+    "card name": "Stonehall Elite",
+    "tier": "A",
+    "tier rank": 2
+  },
+  {
+    "card name": "Strafing Run",
+    "tier": "D",
+    "tier rank": 11
+  },
+  {
+    "card name": "Sucker Punch",
+    "tier": "C",
+    "tier rank": 5
+  },
+  {
+    "card name": "Temple of War",
+    "tier": "D",
+    "tier rank": 6
+  },
+  {
+    "card name": "The Cover of Night",
+    "tier": "C",
+    "tier rank": 28
+  },
+  {
+    "card name": "The Oath",
+    "tier": "A",
+    "tier rank": 10
+  },
+  {
+    "card name": "The Omexe Arena",
+    "tier": "B",
+    "tier rank": 17
+  },
+  {
+    "card name": "The Tyler Estate",
+    "tier": "D",
+    "tier rank": 24
+  },
+  {
+    "card name": "Thunderhide Alpha",
+    "tier": "B",
+    "tier rank": 24
+  },
+  {
+    "card name": "Thunderhide Pack",
+    "tier": "A",
+    "tier rank": 14
+  },
+  {
+    "card name": "Thunderstorm",
+    "tier": "A",
+    "tier rank": 11
+  },
+  {
+    "card name": "Time of Triumph",
+    "tier": "S",
+    "tier rank": 3
+  },
+  {
+    "card name": "Tower Barrage",
+    "tier": "B",
+    "tier rank": 36
+  },
+  {
+    "card name": "Trebuchets",
+    "tier": "D",
+    "tier rank": 20
+  },
+  {
+    "card name": "Tresdin's Standards",
+    "tier": "A",
+    "tier rank": 17
+  },
+  {
+    "card name": "Troll Soothsayer",
+    "tier": "A",
+    "tier rank": 26
+  },
+  {
+    "card name": "Tyler Estate Censor",
+    "tier": "S",
+    "tier rank": 7
+  },
+  {
+    "card name": "Unearthed Secrets",
+    "tier": "S",
+    "tier rank": 2
+  },
+  {
+    "card name": "Unsupervised Artillery",
+    "tier": "C",
+    "tier rank": 29
+  },
+  {
+    "card name": "Untested Grunt",
+    "tier": "C",
+    "tier rank": 30
+  },
+  {
+    "card name": "Ventriloquy",
+    "tier": "C",
+    "tier rank": 1
+  },
+  {
+    "card name": "Vhoul Martyr",
+    "tier": "C",
+    "tier rank": 12
+  },
+  {
+    "card name": "Watchtower",
+    "tier": "F",
+    "tier rank": 4
+  },
+  {
+    "card name": "Whispers of Madness",
+    "tier": "F",
+    "tier rank": 5
+  },
+  {
+    "card name": "Wrath of Gold",
+    "tier": "F",
+    "tier rank": 7
+  },
+        {
+    "card name": "Apotheosis Blade",
+    "tier": "U",
+    "tier rank": 19
+  },
+  {
+    "card name": "Assassin's Veil",
+    "tier": "C",
+    "tier rank": 9
+  },
+  {
+    "card name": "Barbed Mail",
+    "tier": "U",
+    "tier rank": 2
+  },
+  {
+    "card name": "Blade of the Vigil",
+    "tier": "U",
+    "tier rank": 3
+  },
+  {
+    "card name": "Blink Dagger",
+    "tier": "A",
+    "tier rank": 2
+  },
+  {
+    "card name": "Book of the Dead",
+    "tier": "U",
+    "tier rank": 9
+  },
+  {
+    "card name": "Bracers of Sacrifice",
+    "tier": "B",
+    "tier rank": 8
+  },
+  {
+    "card name": "Broadsword",
+    "tier": "C",
+    "tier rank": 6
+  },
+  {
+    "card name": "Chainmail",
+    "tier": "U",
+    "tier rank": 4
+  },
+  {
+    "card name": "Claszureme Hourglass",
+    "tier": "B",
+    "tier rank": 2
+  },
+  {
+    "card name": "Claymore",
+    "tier": "U",
+    "tier rank": 13
+  },
+  {
+    "card name": "Cloak of Endless Carnage",
+    "tier": "U",
+    "tier rank": 12
+  },
+  {
+    "card name": "Demagicking Maul",
+    "tier": "B",
+    "tier rank": 1
+  },
+  {
+    "card name": "Fur-lined Mantle",
+    "tier": "U",
+    "tier rank": 5
+  },
+  {
+    "card name": "Golden Ticket",
+    "tier": "B",
+    "tier rank": 9
+  },
+  {
+    "card name": "Helm of the Dominator",
+    "tier": "B",
+    "tier rank": 3
+  },
+  {
+    "card name": "Hero's Cape",
+    "tier": "U",
+    "tier rank": 14
+  },
+  {
+    "card name": "Horn of the Alpha",
+    "tier": "B",
+    "tier rank": 4
+  },
+  {
+    "card name": "Jasper Daggers",
+    "tier": "A",
+    "tier rank": 6
+  },
+  {
+    "card name": "Keenfolk Musket",
+    "tier": "C",
+    "tier rank": 8
+  },
+  {
+    "card name": "Keenfolk Plate",
+    "tier": "U",
+    "tier rank": 7
+  },
+  {
+    "card name": "Leather Armor",
+    "tier": "C",
+    "tier rank": 11
+  },
+  {
+    "card name": "Nyctasha's Guard",
+    "tier": "U",
+    "tier rank": 20
+  },
+  {
+    "card name": "Obliterating Orb",
+    "tier": "U",
+    "tier rank": 10
+  },
+  {
+    "card name": "Phase Boots",
+    "tier": "C",
+    "tier rank": 2
+  },
+  {
+    "card name": "Platemail",
+    "tier": "U",
+    "tier rank": 15
+  },
+  {
+    "card name": "Poaching Knife",
+    "tier": "C",
+    "tier rank": 10
+  },
+  {
+    "card name": "Red Mist Maul",
+    "tier": "C",
+    "tier rank": 3
+  },
+  {
+    "card name": "Revtel Signet Ring",
+    "tier": "B",
+    "tier rank": 6
+  },
+  {
+    "card name": "Ring of Tarrasque",
+    "tier": "U",
+    "tier rank": 11
+  },
+  {
+    "card name": "Ristul Emblem",
+    "tier": "U",
+    "tier rank": 1
+  },
+  {
+    "card name": "Rumusque Vestments",
+    "tier": "U",
+    "tier rank": 8
+  },
+  {
+    "card name": "Seraphim Shield",
+    "tier": "U",
+    "tier rank": 20
+  },
+  {
+    "card name": "Shield of Aquila",
+    "tier": "C",
+    "tier rank": 4
+  },
+  {
+    "card name": "Shield of Basilius",
+    "tier": "C",
+    "tier rank": 5
+  },
+  {
+    "card name": "Shiva's Guard",
+    "tier": "U",
+    "tier rank": 16
+  },
+  {
+    "card name": "Shop Deed",
+    "tier": "U",
+    "tier rank": 18
+  },
+  {
+    "card name": "Short Sword",
+    "tier": "C",
+    "tier rank": 1
+  },
+  {
+    "card name": "Stonehall Cloak",
+    "tier": "A",
+    "tier rank": 1
+  },
+  {
+    "card name": "Stonehall Pike",
+    "tier": "C",
+    "tier rank": 7
+  },
+  {
+    "card name": "Stonehall Plate",
+    "tier": "B",
+    "tier rank": 7
+  },
+  {
+    "card name": "Traveler's Cloak",
+    "tier": "B",
+    "tier rank": 10
+  },
+  {
+    "card name": "Vesture of the Tyrant",
+    "tier": "B",
+    "tier rank": 5
+  },
+  {
+    "card name": "Wingfall Hammer",
+    "tier": "U",
+    "tier rank": 17
+  }
+        
+]
+    
